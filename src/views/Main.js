@@ -28,7 +28,7 @@ class Main extends React.Component {
 			 * Recursive function to transmit the rest of the stargazers on the client.
 			 */
 			const transmitRemainingStargazers = () => {
-				if (!this.props.transmit.variables.pagesToFetch > 0) {
+				if (this.props.transmit.variables.pagesToFetch <= 0) {
 					return;
 				}
 
@@ -186,4 +186,3 @@ export default Transmit.createContainer(Main, {
 		}
 	}
 });
-

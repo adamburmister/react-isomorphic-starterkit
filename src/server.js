@@ -44,7 +44,7 @@ app.use(function *(next) {
 					<html lang="en-us">
 						<head>
 							<meta charset="utf-8">
-							<title>react-isomorphic-starterkit</title>
+							<title>Pintereact</title>
 							<link rel="shortcut icon" href="/favicon.ico">
 						</head>
 						<body>
